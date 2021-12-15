@@ -6,12 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Cantroller {
 	
-	@GetMapping("webappExample/")
+	@GetMapping("webappExample")
 	public String app() {
-		
 		return "welcome to KK tutorials";
 	}
-	
-	
 
 }
